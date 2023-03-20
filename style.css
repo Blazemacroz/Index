@@ -1,3 +1,94 @@
 img.facebook {
-    height: 75px;
+    height: 35px;
 }
+img.reddit {
+    height: 35px;
+}
+img.roll20 {
+    height: 35px;
+}
+img.brain {
+    height: 225px;
+}
+  html {
+    font-family: sans-serif;
+    font-size: 16px;
+    background-image: url(https://wallpapercave.com/wp/wp3210871.png);
+  }
+  
+  body {
+    background: rgb(0, 0, 0);
+    max-width: 960px;
+    color: #232323;
+    margin: 0 auto;
+  }
+  
+  header {
+    font-size: 2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: .5em 1em;
+    box-shadow: 0 2px 4px -2px black;
+  }
+  
+  main {
+    min-height: 100vh;
+    padding: 64px 24px 96px;
+    box-shadow: 0 0 12px -2px black;
+    color: #eeeeee;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  header::after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+  
+  .name {
+    float: left;
+  }
+  
+  .links {
+    float: right;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: inherit;
+    margin-left: .25em;
+  }
+  
+  .links a:first-of-type {
+    margin-left: 0;
+  }
+  
+  .links a.active {
+    border-bottom: 1px solid #555;
+  }
+  
+  footer {
+    box-sizing: border-box;
+    position: fixed;
+    height: 64px;
+    padding: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-shadow: 0 -2px 4px -2px black;
+  }
+  footer a {
+    margin-right: 64px;
+    text-decoration: none;
+  }
+  
+  footer a:last-child {
+    margin-right: 0;
+  }
+  
+  header, footer {
+    background: #e2e1e1;
+  }
+ 
